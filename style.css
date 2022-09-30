@@ -1,0 +1,101 @@
+#nav-container{
+    min-width:100vw;
+    height:10vh;
+    background-color:rgba(64, 17, 233, 0.836);
+    position:absolute;
+    top:0;
+    left:0;
+}#login-container{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    left:0;
+    top:0;
+   }body{
+       text-align:center;
+       align-items:center;
+   }
+#login-box{
+    height:40vh;
+    width:80vw;
+    border:1px solid darkred;
+    position:absolute;
+    left:10vw;
+    top:20vh;
+    text-align:center;
+}label{
+    font-size:10pt;
+}input{
+    width:80%;
+    height:40px;
+    border-radius:10px;
+    outline:none;
+    box-shadow:2px 2px 5px rgba(0, 89, 255, 0.774);
+    margin-top: 40px;
+    text-align:center;
+}#btn{
+    background:rgba(64, 17, 233, 0.836);
+    color:white;
+}#btn:hover{
+    background:rgba(40, 17, 233, 0.736)
+}#logo{
+    font-family:sans-serif;
+    position:relative;
+    top:50px;
+}#spinning-thing{
+    height:55x;
+    width:55px;
+    background:rgba(64, 17, 233, 0.836);
+    font-size:20px;
+    text-align:center;
+    border-radius:50%;
+    position:relative;
+    justify-content: center;
+    align-self: center;
+    overflow:hidden;
+    left:42vw;
+    top:30px;
+    animation:logoAnimate 3s;
+    animation-iteration-count: 2;
+    }#logo-text{
+        margin-bottom:10px;
+        color:white;
+        font-family:'Times New Roman', Times, serif;
+}#profile{
+float:right;
+height:50px;
+width:50px;
+border:2px solid white;
+border-radius: 50%;
+position:absolute;
+right:10px;
+top:10px;
+}nav{
+    float:left;
+    color:white;
+    text-decoration: none;
+}a{
+    color:white;
+}footer{
+    height:10vh;
+    width:100vw;
+    position:absolute;
+    left:0;
+    bottom:0;
+    background:rgba(64, 17, 233, 0.836);
+
+}#copyright{
+    position:absolute;
+    bottom:0;
+
+}#divider{
+    min-width:100%;
+    
+}
+@keyframes logoAnimate {
+    from{
+        transform: rotateY(0deg);
+    }to{
+        transform: rotateY(360deg);
+    }
+}
